@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">FroSoLIFE</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="laundry">Laundry</string>
+    <string name="items">Items</string>
+    <string name="food">Food</string>
+    <string name="events">Events</string>
+    <string name="profile">Profile</string>
+    <string name="notifs">Notifications</string>
+    <string name="add_item">Add Item</string>
+    <string name="add_food_item">Add Food Item</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string-array name="brunch_menu">
+        <item>Raspberry and White Chocolate Pancakes</item>
+        <item>Steel Cut Oatmeal</item>
+        <item>Plain Scrambled Eggs</item>
+        <item>Tuscany Scramble (Spinach, Kale, Tomatoes, Basil, Mozzarella)</item>
+        <item>Tatertots</item>
+        <item>Sausage</item>
+        <item>Make Your Own Waffle</item>
+        <item>Build Your Own Omelet</item>
+        <item>Ranch Chicken</item>
+        <item>Yukon Mashed Potatoes</item>
+        <item>Sauteed Green Beans</item>
+        <item>Assorted Pastries</item>
+        <item>Sticky Buns</item>
+    </string-array>
+    <string-array name="dinner_menu">
+        <item>Cheese Enchilada</item>
+        <item>Refried Beans</item>
+        <item>Sauteed Swiss Chard</item>
+        <item>Spanish Rice</item>
+        <item>Beef Fajita with Enchilada Sauce and Tortillas</item>
+        <item>Pasta and Marinara</item>
+        <item>Carrots</item>
+        <item>Tortilla Chips with Fixings</item>
+        <item>Chef\'s Choice of Soup</item>
+        <item>Vegan Quinoa Burger</item>
+        <item>Hamburger</item>
+        <item>Hot Dog</item>
+        <item>Garlic Parmesan Fries</item>
+        <item>Peach Pie a la Mode</item>
+        <item>Hawaiian Rolls</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_laundry"
+            android:icon="@drawable/ic_laundry"
+            android:title="@string/laundry" />
+        <item
+            android:id="@+id/nav_items"
+            android:icon="@drawable/ic_action_items"
+            android:title="@string/items" />
+        <item
+            android:id="@+id/nav_food"
+            android:icon="@drawable/ic_food"
+            android:title="@string/food" />
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@drawable/ic_action_event"
+            android:title="@string/events" />
+    </group>
+
+    <item android:title="@string/action_settings">
+        <menu>
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/ic_action_person"
+                android:title="@string/profile" />
+            <item
+                android:id="@+id/nav_notifications"
+                android:icon="@drawable/ic_notification"
+                android:title="@string/notifs" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="Log Out"/>
+        </menu>
+    </item>
+
+</menu>
