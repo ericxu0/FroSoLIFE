@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D8372AB41C542BCB007CCB4C /* important3.png in Resources */ = {isa = PBXBuildFile; fileRef = D8372AB31C542BCB007CCB4C /* important3.png */; };
+		D8372AB91C542D88007CCB4C /* notifications3.png in Resources */ = {isa = PBXBuildFile; fileRef = D8372AB51C542D88007CCB4C /* notifications3.png */; };
+		D8372ABA1C542D88007CCB4C /* profile3.png in Resources */ = {isa = PBXBuildFile; fileRef = D8372AB61C542D88007CCB4C /* profile3.png */; };
+		D8372ABB1C542D88007CCB4C /* today3.png in Resources */ = {isa = PBXBuildFile; fileRef = D8372AB71C542D88007CCB4C /* today3.png */; };
+		D8372ABC1C542D88007CCB4C /* upcoming3.png in Resources */ = {isa = PBXBuildFile; fileRef = D8372AB81C542D88007CCB4C /* upcoming3.png */; };
+		D8372ABE1C5432A9007CCB4C /* ImportantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8372ABD1C5432A9007CCB4C /* ImportantViewController.swift */; };
+		D8372AC01C5432DC007CCB4C /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8372ABF1C5432DC007CCB4C /* EventTableViewCell.swift */; };
+		D8372AC21C5438E8007CCB4C /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8372AC11C5438E8007CCB4C /* TodayViewController.swift */; };
+		D8372AC41C543D97007CCB4C /* defaultPhoto.png in Resources */ = {isa = PBXBuildFile; fileRef = D8372AC31C543D97007CCB4C /* defaultPhoto.png */; };
+		D8372AC61C543ED1007CCB4C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8372AC51C543ED1007CCB4C /* ProfileViewController.swift */; };
+		D8372AC81C5465F4007CCB4C /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8372AC71C5465F4007CCB4C /* NotificationViewController.swift */; };
+		D8372ACA1C546614007CCB4C /* NotificationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8372AC91C546614007CCB4C /* NotificationTableViewCell.swift */; };
+		D8372ACC1C547434007CCB4C /* plus3.png in Resources */ = {isa = PBXBuildFile; fileRef = D8372ACB1C547434007CCB4C /* plus3.png */; };
+		D8372ACE1C547470007CCB4C /* AddEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8372ACD1C547470007CCB4C /* AddEventViewController.swift */; };
+		D8F3EDF51C537D0500853C99 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F3EDF41C537D0500853C99 /* settings.png */; };
+		D8F67BCF1C53674100D1F3CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F67BCE1C53674100D1F3CC /* AppDelegate.swift */; };
+		D8F67BD11C53674100D1F3CC /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F67BD01C53674100D1F3CC /* TabViewController.swift */; };
+		D8F67BD41C53674100D1F3CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8F67BD21C53674100D1F3CC /* Main.storyboard */; };
+		D8F67BD61C53674100D1F3CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8F67BD51C53674100D1F3CC /* Assets.xcassets */; };
+		D8F67BD91C53674100D1F3CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8F67BD71C53674100D1F3CC /* LaunchScreen.storyboard */; };
+		D8F67BE41C53674100D1F3CC /* FroSoLIFETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F67BE31C53674100D1F3CC /* FroSoLIFETests.swift */; };
+		D8F67BEF1C536C7C00D1F3CC /* shield.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F67BEE1C536C7C00D1F3CC /* shield.png */; };
+		D8F67BF11C536EBA00D1F3CC /* TabTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F67BF01C536EBA00D1F3CC /* TabTableViewCell.swift */; };
+		D8F67BF61C5372EA00D1F3CC /* events.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D8F67BF21C5372EA00D1F3CC /* events.jpg */; };
+		D8F67BF71C5372EA00D1F3CC /* food.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D8F67BF31C5372EA00D1F3CC /* food.jpg */; };
+		D8F67BF81C5372EA00D1F3CC /* item.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F67BF41C5372EA00D1F3CC /* item.png */; };
+		D8F67BF91C5372EA00D1F3CC /* laundry.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F67BF51C5372EA00D1F3CC /* laundry.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D8F67BE01C53674100D1F3CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8F67BC31C53674100D1F3CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8F67BCA1C53674100D1F3CC;
+			remoteInfo = FroSoLIFE;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D8372AB31C542BCB007CCB4C /* important3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = important3.png; sourceTree = "<group>"; };
+		D8372AB51C542D88007CCB4C /* notifications3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = notifications3.png; sourceTree = "<group>"; };
+		D8372AB61C542D88007CCB4C /* profile3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile3.png; sourceTree = "<group>"; };
+		D8372AB71C542D88007CCB4C /* today3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = today3.png; sourceTree = "<group>"; };
+		D8372AB81C542D88007CCB4C /* upcoming3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = upcoming3.png; sourceTree = "<group>"; };
+		D8372ABD1C5432A9007CCB4C /* ImportantViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImportantViewController.swift; sourceTree = "<group>"; };
+		D8372ABF1C5432DC007CCB4C /* EventTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
+		D8372AC11C5438E8007CCB4C /* TodayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		D8372AC31C543D97007CCB4C /* defaultPhoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = defaultPhoto.png; sourceTree = "<group>"; };
+		D8372AC51C543ED1007CCB4C /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		D8372AC71C5465F4007CCB4C /* NotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		D8372AC91C546614007CCB4C /* NotificationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationTableViewCell.swift; sourceTree = "<group>"; };
+		D8372ACB1C547434007CCB4C /* plus3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus3.png; sourceTree = "<group>"; };
+		D8372ACD1C547470007CCB4C /* AddEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddEventViewController.swift; sourceTree = "<group>"; };
+		D8F3EDF41C537D0500853C99 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		D8F67BCB1C53674100D1F3CC /* FroSoLIFE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FroSoLIFE.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8F67BCE1C53674100D1F3CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D8F67BD01C53674100D1F3CC /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		D8F67BD31C53674100D1F3CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D8F67BD51C53674100D1F3CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D8F67BD81C53674100D1F3CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D8F67BDA1C53674100D1F3CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8F67BDF1C53674100D1F3CC /* FroSoLIFETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FroSoLIFETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8F67BE31C53674100D1F3CC /* FroSoLIFETests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FroSoLIFETests.swift; sourceTree = "<group>"; };
+		D8F67BE51C53674100D1F3CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8F67BEE1C536C7C00D1F3CC /* shield.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shield.png; sourceTree = "<group>"; };
+		D8F67BF01C536EBA00D1F3CC /* TabTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabTableViewCell.swift; sourceTree = "<group>"; };
+		D8F67BF21C5372EA00D1F3CC /* events.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = events.jpg; sourceTree = "<group>"; };
+		D8F67BF31C5372EA00D1F3CC /* food.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = food.jpg; sourceTree = "<group>"; };
+		D8F67BF41C5372EA00D1F3CC /* item.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = item.png; sourceTree = "<group>"; };
+		D8F67BF51C5372EA00D1F3CC /* laundry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = laundry.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8F67BC81C53674100D1F3CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8F67BDC1C53674100D1F3CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D8F67BC21C53674100D1F3CC = {
+			isa = PBXGroup;
+			children = (
+				D8F67BCD1C53674100D1F3CC /* FroSoLIFE */,
+				D8F67BE21C53674100D1F3CC /* FroSoLIFETests */,
+				D8F67BCC1C53674100D1F3CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D8F67BCC1C53674100D1F3CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8F67BCB1C53674100D1F3CC /* FroSoLIFE.app */,
+				D8F67BDF1C53674100D1F3CC /* FroSoLIFETests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8F67BCD1C53674100D1F3CC /* FroSoLIFE */ = {
+			isa = PBXGroup;
+			children = (
+				D8F67BD21C53674100D1F3CC /* Main.storyboard */,
+				D8F67BCE1C53674100D1F3CC /* AppDelegate.swift */,
+				D8F67BF01C536EBA00D1F3CC /* TabTableViewCell.swift */,
+				D8F67BD01C53674100D1F3CC /* TabViewController.swift */,
+				D8372ABF1C5432DC007CCB4C /* EventTableViewCell.swift */,
+				D8372ABD1C5432A9007CCB4C /* ImportantViewController.swift */,
+				D8372ACD1C547470007CCB4C /* AddEventViewController.swift */,
+				D8372AC11C5438E8007CCB4C /* TodayViewController.swift */,
+				D8372AC51C543ED1007CCB4C /* ProfileViewController.swift */,
+				D8372AC91C546614007CCB4C /* NotificationTableViewCell.swift */,
+				D8372AC71C5465F4007CCB4C /* NotificationViewController.swift */,
+				D8372AC31C543D97007CCB4C /* defaultPhoto.png */,
+				D8F3EDF41C537D0500853C99 /* settings.png */,
+				D8372AB51C542D88007CCB4C /* notifications3.png */,
+				D8372AB61C542D88007CCB4C /* profile3.png */,
+				D8372AB71C542D88007CCB4C /* today3.png */,
+				D8372AB81C542D88007CCB4C /* upcoming3.png */,
+				D8372ACB1C547434007CCB4C /* plus3.png */,
+				D8F67BF21C5372EA00D1F3CC /* events.jpg */,
+				D8F67BF31C5372EA00D1F3CC /* food.jpg */,
+				D8F67BF41C5372EA00D1F3CC /* item.png */,
+				D8372AB31C542BCB007CCB4C /* important3.png */,
+				D8F67BF51C5372EA00D1F3CC /* laundry.png */,
+				D8F67BEE1C536C7C00D1F3CC /* shield.png */,
+				D8F67BD51C53674100D1F3CC /* Assets.xcassets */,
+				D8F67BD71C53674100D1F3CC /* LaunchScreen.storyboard */,
+				D8F67BDA1C53674100D1F3CC /* Info.plist */,
+			);
+			path = FroSoLIFE;
+			sourceTree = "<group>";
+		};
+		D8F67BE21C53674100D1F3CC /* FroSoLIFETests */ = {
+			isa = PBXGroup;
+			children = (
+				D8F67BE31C53674100D1F3CC /* FroSoLIFETests.swift */,
+				D8F67BE51C53674100D1F3CC /* Info.plist */,
+			);
+			path = FroSoLIFETests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8F67BCA1C53674100D1F3CC /* FroSoLIFE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8F67BE81C53674100D1F3CC /* Build configuration list for PBXNativeTarget "FroSoLIFE" */;
+			buildPhases = (
+				D8F67BC71C53674100D1F3CC /* Sources */,
+				D8F67BC81C53674100D1F3CC /* Frameworks */,
+				D8F67BC91C53674100D1F3CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FroSoLIFE;
+			productName = FroSoLIFE;
+			productReference = D8F67BCB1C53674100D1F3CC /* FroSoLIFE.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D8F67BDE1C53674100D1F3CC /* FroSoLIFETests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8F67BEB1C53674100D1F3CC /* Build configuration list for PBXNativeTarget "FroSoLIFETests" */;
+			buildPhases = (
+				D8F67BDB1C53674100D1F3CC /* Sources */,
+				D8F67BDC1C53674100D1F3CC /* Frameworks */,
+				D8F67BDD1C53674100D1F3CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8F67BE11C53674100D1F3CC /* PBXTargetDependency */,
+			);
+			name = FroSoLIFETests;
+			productName = FroSoLIFETests;
+			productReference = D8F67BDF1C53674100D1F3CC /* FroSoLIFETests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8F67BC31C53674100D1F3CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Eric Xu";
+				TargetAttributes = {
+					D8F67BCA1C53674100D1F3CC = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = KNHFMLJ9LD;
+					};
+					D8F67BDE1C53674100D1F3CC = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = KNHFMLJ9LD;
+						TestTargetID = D8F67BCA1C53674100D1F3CC;
+					};
+				};
+			};
+			buildConfigurationList = D8F67BC61C53674100D1F3CC /* Build configuration list for PBXProject "FroSoLIFE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D8F67BC21C53674100D1F3CC;
+			productRefGroup = D8F67BCC1C53674100D1F3CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8F67BCA1C53674100D1F3CC /* FroSoLIFE */,
+				D8F67BDE1C53674100D1F3CC /* FroSoLIFETests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8F67BC91C53674100D1F3CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8F67BF61C5372EA00D1F3CC /* events.jpg in Resources */,
+				D8F67BF71C5372EA00D1F3CC /* food.jpg in Resources */,
+				D8372AB41C542BCB007CCB4C /* important3.png in Resources */,
+				D8372ACC1C547434007CCB4C /* plus3.png in Resources */,
+				D8372ABA1C542D88007CCB4C /* profile3.png in Resources */,
+				D8F67BD91C53674100D1F3CC /* LaunchScreen.storyboard in Resources */,
+				D8372AB91C542D88007CCB4C /* notifications3.png in Resources */,
+				D8372ABB1C542D88007CCB4C /* today3.png in Resources */,
+				D8F67BD61C53674100D1F3CC /* Assets.xcassets in Resources */,
+				D8F67BEF1C536C7C00D1F3CC /* shield.png in Resources */,
+				D8F67BF91C5372EA00D1F3CC /* laundry.png in Resources */,
+				D8372AC41C543D97007CCB4C /* defaultPhoto.png in Resources */,
+				D8F3EDF51C537D0500853C99 /* settings.png in Resources */,
+				D8372ABC1C542D88007CCB4C /* upcoming3.png in Resources */,
+				D8F67BD41C53674100D1F3CC /* Main.storyboard in Resources */,
+				D8F67BF81C5372EA00D1F3CC /* item.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8F67BDD1C53674100D1F3CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8F67BC71C53674100D1F3CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8372ACA1C546614007CCB4C /* NotificationTableViewCell.swift in Sources */,
+				D8372ACE1C547470007CCB4C /* AddEventViewController.swift in Sources */,
+				D8F67BD11C53674100D1F3CC /* TabViewController.swift in Sources */,
+				D8372ABE1C5432A9007CCB4C /* ImportantViewController.swift in Sources */,
+				D8372AC81C5465F4007CCB4C /* NotificationViewController.swift in Sources */,
+				D8372AC21C5438E8007CCB4C /* TodayViewController.swift in Sources */,
+				D8F67BCF1C53674100D1F3CC /* AppDelegate.swift in Sources */,
+				D8372AC61C543ED1007CCB4C /* ProfileViewController.swift in Sources */,
+				D8372AC01C5432DC007CCB4C /* EventTableViewCell.swift in Sources */,
+				D8F67BF11C536EBA00D1F3CC /* TabTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8F67BDB1C53674100D1F3CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8F67BE41C53674100D1F3CC /* FroSoLIFETests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D8F67BE11C53674100D1F3CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8F67BCA1C53674100D1F3CC /* FroSoLIFE */;
+			targetProxy = D8F67BE01C53674100D1F3CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D8F67BD21C53674100D1F3CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8F67BD31C53674100D1F3CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D8F67BD71C53674100D1F3CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8F67BD81C53674100D1F3CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D8F67BE61C53674100D1F3CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D8F67BE71C53674100D1F3CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8F67BE91C53674100D1F3CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FroSoLIFE/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ericxu0.FroSoLIFE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D8F67BEA1C53674100D1F3CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FroSoLIFE/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ericxu0.FroSoLIFE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D8F67BEC1C53674100D1F3CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FroSoLIFETests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ericxu0.FroSoLIFETests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FroSoLIFE.app/FroSoLIFE";
+			};
+			name = Debug;
+		};
+		D8F67BED1C53674100D1F3CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FroSoLIFETests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ericxu0.FroSoLIFETests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FroSoLIFE.app/FroSoLIFE";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8F67BC61C53674100D1F3CC /* Build configuration list for PBXProject "FroSoLIFE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8F67BE61C53674100D1F3CC /* Debug */,
+				D8F67BE71C53674100D1F3CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8F67BE81C53674100D1F3CC /* Build configuration list for PBXNativeTarget "FroSoLIFE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8F67BE91C53674100D1F3CC /* Debug */,
+				D8F67BEA1C53674100D1F3CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8F67BEB1C53674100D1F3CC /* Build configuration list for PBXNativeTarget "FroSoLIFETests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8F67BEC1C53674100D1F3CC /* Debug */,
+				D8F67BED1C53674100D1F3CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8F67BC31C53674100D1F3CC /* Project object */;
+}
